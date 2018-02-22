@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                new ConsultarDatos().execute("http://10.0.23.18/consulta.php?mail="+et_mail.getText().toString()+"&contrasena="+et_pass.getText().toString());
-
+// Numero de Ip del wifi si se emula desde un celular sino 10.0.3.2
             }
         });
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.virrap.quienarreglaapp.Registro">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/Toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+<EditText
+    android:id="@+id/id_nombreCompleto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nombre Completo"
+    android:inputType="text"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:textSize="20sp" />
+
+<EditText
+    android:id="@+id/id_mail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:singleLine="true"
+    android:textSize="20sp" />
+
+<EditText
+    android:id="@+id/id_contrasena"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Contraseña"
+    android:inputType="textPassword"
+    android:singleLine="true"
+    android:textSize="20sp" />
+
+<Spinner
+    android:id="@+id/id_des_Ciudad"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    />
+
+<Button
+    android:id="@+id/id_btn_guardar"
+    style="@style/Widget.AppCompat.Button"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Guardar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_btn_soyProfesional"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Soy Profesional" />
+    </LinearLayout>
+
+</LinearLayout>
+

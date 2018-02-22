@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuienArreglaApp</string>
+    <string name="usuario_mail_com">Usuario@mail.com</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="soy_usuario_nuevo">Soy usuario nuevo</string>
+</resources>
